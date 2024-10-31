@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+  margin-left: "10px";
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff2d;
+  border-radius: 10px;
+}
+
+.MuiDataGrid-cell:focus,
+.MuiDataGrid-columnHeader:focus {
+  outline: solid transparent 1px !important;
+}
+
+.MuiAccordion-root::before {
+  background-color: transparent !important;
+}
+
+ 
